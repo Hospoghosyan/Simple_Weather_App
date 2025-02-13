@@ -38,7 +38,10 @@ Follow the instructions below depending on your operating system.
      ```bash
      cd Simple_Weather_App
      ```
-   - Give execution permission to the script:  
+   - Give execution permission to the scripts:
+     ```bash
+     sed -i '' $'s/\r$//' Weather_Application_Linux-macOS.sh
+     ```
      ```bash
      chmod +x "Weather_Application_Linux-macOS.sh"
      ```
